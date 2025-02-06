@@ -34,6 +34,6 @@ nvcc device_properties.cu -o device_properties
 4. Run the porgram:
    -From the menu, select **Debug** -> **Start Without Debugging**.
 
-####Notes:
+###Notes:
 -If no CUDA devices are found, the program will display: "No CUDA devices found."
 -For multiple devices, the program iterates through and displays properties for each device.
