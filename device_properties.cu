@@ -51,9 +51,8 @@ int main() {
 		cout << " Clock Rate: " << deviceProp.clockRate << " kHz" << endl;
 		cout << " Memory Clock Rate: " << deviceProp.memoryClockRate << " MHz" << endl;
 		cout << " Memory Bus Width: " << deviceProp.memoryBusWidth << " bits" << endl;
-		cout << " Memory Bandwidth: " << 2.0 * deviceProp.memoryBusWidth * deviceProp.memoryClockRate / 1e6 << " GB/s" << endl;
 		cout << "\n" << endl;
 	}
-
+	system("pause");
 	return 0;
 }
